@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131D33"/><stop offset="1" stop-color="#0E1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97757"/><stop offset="1" stop-color="#F0A07A"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .label { font-size: 19px; font-weight: 700; letter-spacing: 2.5px; fill: #F0A07A; }
+      .value { font-size: 36px; font-weight: 700; fill: #F1F5F9; }
+      .sub { font-size: 22px; fill: #94A3B8; }
+      .icon { font-size: 34px; }
+    </style>
+  </defs>
+    <g transform="translate(0,10)">
+      <rect width="380" height="210" rx="20" fill="url(#card)" stroke="#24324F" stroke-width="1.5"/>
+      <rect x="34" y="36" width="52" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="84" class="label">ROLE</text>
+      <text x="34" y="134" class="value">Apprentice</text>
+      <text x="34" y="172" class="sub">System Integration</text>
+      <text x="336" y="70" class="icon" text-anchor="middle">🎓</text>
+    </g>
+    <g transform="translate(410,10)">
+      <rect width="380" height="210" rx="20" fill="url(#card)" stroke="#24324F" stroke-width="1.5"/>
+      <rect x="34" y="36" width="52" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="84" class="label">LOCATION</text>
+      <text x="34" y="134" class="value">Germany</text>
+      <text x="34" y="172" class="sub">Central European Time</text>
+      <text x="336" y="70" class="icon" text-anchor="middle">🌍</text>
+    </g>
+    <g transform="translate(820,10)">
+      <rect width="380" height="210" rx="20" fill="url(#card)" stroke="#24324F" stroke-width="1.5"/>
+      <rect x="34" y="36" width="52" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="34" y="84" class="label">BUILDING</text>
+      <text x="34" y="134" class="value">Hobby Projects</text>
+      <text x="34" y="172" class="sub">With Claude Code</text>
+      <text x="336" y="70" class="icon" text-anchor="middle">🦀</text>
+    </g>
+</svg>

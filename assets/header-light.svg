@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/><stop offset="0.55" stop-color="#EEF2F8"/><stop offset="1" stop-color="#DDE6F3"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#93C5FD" stop-opacity="0.55"/><stop offset="1" stop-color="#93C5FD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.08" cy="1" r="0.5">
+      <stop offset="0" stop-color="#FDBA74" stop-opacity="0.35"/><stop offset="1" stop-color="#FDBA74" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#0F172A" fill-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97757"/><stop offset="1" stop-color="#F0A07A"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="340" rx="22"/></clipPath>
+    <style>
+      .fade { opacity: 0; animation: fade 1s ease-out forwards; }
+      .d1 { animation-delay: .15s; } .d2 { animation-delay: .4s; } .d3 { animation-delay: .65s; }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .bob { animation: bob 2.4s ease-in-out infinite; }
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      .eyes { transform-origin: 0 48px; animation: eyes 4s infinite; }
+      @keyframes eyes { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+      .tw { animation: tw 3s ease-in-out infinite; }
+      .t2 { animation-delay: 1s; } .t3 { animation-delay: 2s; }
+      @keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+      .bubble { opacity: 0; transform-origin: 890px 112px; animation: bubble 9s ease-in-out 1.5s infinite; }
+      @keyframes bubble {
+        0% { opacity: 0; transform: scale(.85); } 6%, 55% { opacity: 1; transform: scale(1); }
+        61%, 100% { opacity: 0; transform: scale(.85); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <rect width="1200" height="340" fill="url(#glow1)"/>
+    <rect width="1200" height="340" fill="url(#glow2)"/>
+
+    <ellipse cx="996" cy="262" rx="92" ry="9" fill="#000000" fill-opacity="0.12"/>
+    <g transform="translate(900,110)"><g class="bob"><path fill="#D97757" shape-rendering="crispEdges" d="M32 0h16v16h-16zM48 0h16v16h-16zM64 0h16v16h-16zM80 0h16v16h-16zM96 0h16v16h-16zM112 0h16v16h-16zM128 0h16v16h-16zM144 0h16v16h-16zM32 16h16v16h-16zM48 16h16v16h-16zM64 16h16v16h-16zM80 16h16v16h-16zM96 16h16v16h-16zM112 16h16v16h-16zM128 16h16v16h-16zM144 16h16v16h-16zM32 32h16v16h-16zM48 32h16v16h-16zM64 32h16v16h-16zM80 32h16v16h-16zM96 32h16v16h-16zM112 32h16v16h-16zM128 32h16v16h-16zM144 32h16v16h-16zM0 48h16v16h-16zM16 48h16v16h-16zM32 48h16v16h-16zM48 48h16v16h-16zM64 48h16v16h-16zM80 48h16v16h-16zM96 48h16v16h-16zM112 48h16v16h-16zM128 48h16v16h-16zM144 48h16v16h-16zM160 48h16v16h-16zM176 48h16v16h-16zM0 64h16v16h-16zM16 64h16v16h-16zM32 64h16v16h-16zM48 64h16v16h-16zM64 64h16v16h-16zM80 64h16v16h-16zM96 64h16v16h-16zM112 64h16v16h-16zM128 64h16v16h-16zM144 64h16v16h-16zM160 64h16v16h-16zM176 64h16v16h-16zM32 80h16v16h-16zM48 80h16v16h-16zM64 80h16v16h-16zM80 80h16v16h-16zM96 80h16v16h-16zM112 80h16v16h-16zM128 80h16v16h-16zM144 80h16v16h-16z"/><path fill="#D97757" shape-rendering="crispEdges" d="M32 96h16v16h-16zM64 96h16v16h-16zM112 96h16v16h-16zM144 96h16v16h-16zM32 112h16v16h-16zM64 112h16v16h-16zM112 112h16v16h-16zM144 112h16v16h-16z"/><path fill="#1A1A1A" class="eyes" shape-rendering="crispEdges" d="M48 32h16v16h-16zM128 32h16v16h-16zM48 48h16v16h-16zM128 48h16v16h-16z"/></g></g>
+    <g fill="#F0A07A">
+      <rect x="860" y="84" width="6" height="6" class="tw"/>
+      <rect x="1120" y="70" width="5" height="5" class="tw t2"/>
+      <rect x="1140" y="180" width="6" height="6" class="tw t3"/>
+      <rect x="845" y="200" width="4" height="4" class="tw t2"/>
+    </g>
+
+    <g class="bubble">
+      <rect x="640" y="46" width="250" height="48" rx="14" fill="#1F2937"/>
+      <path d="M856 93 l22 18 l-4 -18z" fill="#1F2937"/>
+      <text x="765" y="77" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#F8FAFC">Let's build something!</text>
+    </g>
+
+    <g class="fade d1">
+      <text x="80" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" fill="#64748B">~ $ claude<tspan class="cursor" fill="#F0A07A"> _</tspan></text>
+    </g>
+    <g class="fade d2">
+      <text x="76" y="196" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="84" font-weight="700" fill="#0F172A" letter-spacing="-1.5">Jannik</text>
+      <rect x="80" y="218" width="96" height="5" rx="2.5" fill="url(#accent)"/>
+    </g>
+    <g class="fade d3">
+      <text x="80" y="268" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#334155">Apprentice IT Specialist for System Integration</text>
+    </g>
+  </g>
+</svg>

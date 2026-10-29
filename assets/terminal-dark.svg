@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 25px; }
+      .dim { fill: #64748B; } .txt { fill: #E2E8F0; } .ok { fill: #4ADE80; }
+      .or { fill: #D97757; } .pr { fill: #D97757; font-weight: 700; }
+      .l { opacity: 0; animation: show .35s ease-out forwards; }
+      .a1 { animation-delay: .4s; } .a2 { animation-delay: 1.2s; } .a3 { animation-delay: 2.2s; } .a4 { animation-delay: 3.2s; }
+      .a5 { animation-delay: 4.0s; } .a6 { animation-delay: 4.7s; } .a7 { animation-delay: 5.4s; } .a8 { animation-delay: 6.2s; }
+      @keyframes show { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="518" rx="20" fill="url(#win)" stroke="#24324F" stroke-width="1.5"/>
+  <path d="M1 21 a20 20 0 0 1 20 -20 h1158 a20 20 0 0 1 20 20 v35 h-1198z" fill="#151F35"/>
+  <circle cx="36" cy="29" r="8" fill="#FF5F57"/>
+  <circle cx="62" cy="29" r="8" fill="#FEBC2E"/>
+  <circle cx="88" cy="29" r="8" fill="#28C840"/>
+  <text x="600" y="37" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#94A3B8">jannik@hobby: ~/projects</text>
+
+  <g class="mono">
+    <text x="44" y="112" class="l a1"><tspan class="ok">~/projects</tspan><tspan class="dim"> $ </tspan><tspan class="txt">claude</tspan></text>
+    <g class="l a2">
+      <rect x="44" y="134" width="560" height="62" rx="10" fill="none" stroke="#D97757" stroke-width="2"/>
+      <text x="68" y="174"><tspan class="or">✻</tspan><tspan class="txt"> Welcome to </tspan><tspan class="txt" font-weight="700">Claude Code</tspan><tspan class="txt">!</tspan></text>
+    </g>
+    <text x="44" y="250" class="l a3"><tspan class="pr">&gt; </tspan><tspan class="txt">Let's build a new hobby project today</tspan></text>
+    <text x="44" y="298" class="l a4"><tspan class="or">● </tspan><tspan class="txt">Sure! Let's get started.</tspan></text>
+    <text x="72" y="340" class="l a5"><tspan class="ok">✓ </tspan><tspan class="dim">Project structure created</tspan></text>
+    <text x="72" y="380" class="l a6"><tspan class="ok">✓ </tspan><tspan class="dim">First feature implemented</tspan></text>
+    <text x="72" y="420" class="l a7"><tspan class="ok">✓ </tspan><tspan class="dim">Tests passing</tspan></text>
+    <text x="44" y="474" class="l a8"><tspan class="pr">&gt; </tspan><tspan class="or cur">▌</tspan></text>
+  </g>
+</svg>

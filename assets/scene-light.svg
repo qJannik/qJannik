@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="360" rx="20"/></clipPath>
+    <style>
+      .code { transform-box: fill-box; transform-origin: left; animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: steps(6); }
+      .k0 { animation-name: k0; } .k1 { animation-name: k1; } .k2 { animation-name: k2; }
+      .k3 { animation-name: k3; } .k4 { animation-name: k4; } .k5 { animation-name: k5; }
+      @keyframes k0 { 0%, 0% { transform: scaleX(0); } 9%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } @keyframes k1 { 0%, 10% { transform: scaleX(0); } 19%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } @keyframes k2 { 0%, 20% { transform: scaleX(0); } 29%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } @keyframes k3 { 0%, 30% { transform: scaleX(0); } 39%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } @keyframes k4 { 0%, 40% { transform: scaleX(0); } 49%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } @keyframes k5 { 0%, 50% { transform: scaleX(0); } 59%, 92% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } } 
+      .check { opacity: 0; animation: check 9s steps(1) infinite; }
+      @keyframes check { 0%, 64% { opacity: 0; } 66%, 92% { opacity: 1; } 94%, 100% { opacity: 0; } }
+      .claw { animation: type 9s infinite; }
+      @keyframes type {
+        0%, 4%, 8%, 12%, 16%, 20%, 24%, 28%, 32%, 36%, 40%, 44%, 48%, 52%, 56%, 60%, 64%, 66%, 100% { transform: translateY(0); }
+        2%, 6%, 10%, 14%, 18%, 22%, 26%, 30%, 34%, 38%, 42%, 46%, 50%, 54%, 58%, 62% { transform: translateY(-6px); }
+      }
+      .look { animation: look 9s steps(1) infinite; }
+      @keyframes look { 0%, 65% { transform: translate(-5px, 4px); } 66%, 92% { transform: translate(0, -4px); } 93%, 100% { transform: translate(-5px, 4px); } }
+      .steam { opacity: 0; animation: steam 3s ease-out infinite; }
+      .p1 { animation-delay: 1s; } .p2 { animation-delay: 2s; }
+      @keyframes steam { 0% { opacity: 0; transform: translateY(0); } 30% { opacity: .8; } 100% { opacity: 0; transform: translateY(-34px); } }
+      .glow { opacity: 0.35; animation: glow 4s ease-in-out infinite; }
+      @keyframes glow { 50% { opacity: 0.5; } }
+      .star { animation: tw 3s ease-in-out infinite; }
+      .s1 { animation-delay: 1s; } .s2 { animation-delay: 2s; }
+      @keyframes tw { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="360" fill="url(#card)"/>
+    <rect x="840" y="50" width="200" height="140" fill="#CBD5E1"/><rect x="848" y="58" width="184" height="124" fill="#BFDBFE"/><rect x="976" y="72" width="32" height="32" fill="#FBBF24"/><rect x="968" y="84" width="48" height="8" fill="#FBBF24"/><rect x="988" y="64" width="8" height="48" fill="#FBBF24"/><rect x="872" y="120" width="56" height="16" fill="#FFFFFF"/><rect x="884" y="108" width="32" height="12" fill="#FFFFFF"/><rect x="936" y="58" width="8" height="124" fill="#CBD5E1"/><rect x="848" y="116" width="184" height="8" fill="#CBD5E1"/>
+    <polygon class="glow" points="262,142 300,142 470,268 330,268" fill="#FCD34D" shape-rendering="geometricPrecision"/><rect x="184" y="260" width="56" height="10" fill="#4B5563"/><rect x="206" y="150" width="8" height="110" fill="#4B5563"/><rect x="206" y="142" width="56" height="8" fill="#4B5563"/><rect x="250" y="126" width="56" height="16" fill="#D97757"/><rect x="258" y="118" width="40" height="8" fill="#D97757"/>
+    <rect x="400" y="118" width="240" height="140" fill="#4B5563"/><rect x="408" y="126" width="224" height="124" fill="#0B1220"/><rect x="380" y="258" width="284" height="12" fill="#4B5563"/><rect x="500" y="262" width="44" height="4" fill="#6B7280"/><rect class="code k0" x="424" y="142" width="64" height="8" fill="#D97757"/><rect class="code k1" x="496" y="158" width="88" height="8" fill="#94A3B8"/><rect class="code k2" x="440" y="174" width="120" height="8" fill="#60A5FA"/><rect class="code k3" x="440" y="190" width="72" height="8" fill="#94A3B8"/><rect class="code k4" x="424" y="206" width="40" height="8" fill="#D97757"/><rect class="code k5" x="472" y="222" width="96" height="8" fill="#60A5FA"/><path class="check" d="M592 222h8v8h-8zM600 230h8v8h-8zM608 222h8v8h-8zM616 214h8v8h-8zM624 206h8v8h-8z" fill="#4ADE80"/>
+    <g transform="translate(690,190)"><path fill="#D97757" shape-rendering="crispEdges" d="M20 0h10v10h-10zM30 0h10v10h-10zM40 0h10v10h-10zM50 0h10v10h-10zM60 0h10v10h-10zM70 0h10v10h-10zM80 0h10v10h-10zM90 0h10v10h-10zM20 10h10v10h-10zM30 10h10v10h-10zM40 10h10v10h-10zM50 10h10v10h-10zM60 10h10v10h-10zM70 10h10v10h-10zM80 10h10v10h-10zM90 10h10v10h-10zM20 20h10v10h-10zM30 20h10v10h-10zM40 20h10v10h-10zM50 20h10v10h-10zM60 20h10v10h-10zM70 20h10v10h-10zM80 20h10v10h-10zM90 20h10v10h-10zM0 30h10v10h-10zM10 30h10v10h-10zM20 30h10v10h-10zM30 30h10v10h-10zM40 30h10v10h-10zM50 30h10v10h-10zM60 30h10v10h-10zM70 30h10v10h-10zM80 30h10v10h-10zM90 30h10v10h-10zM100 30h10v10h-10zM110 30h10v10h-10zM0 40h10v10h-10zM10 40h10v10h-10zM20 40h10v10h-10zM30 40h10v10h-10zM40 40h10v10h-10zM50 40h10v10h-10zM60 40h10v10h-10zM70 40h10v10h-10zM80 40h10v10h-10zM90 40h10v10h-10zM100 40h10v10h-10zM110 40h10v10h-10zM20 50h10v10h-10zM30 50h10v10h-10zM40 50h10v10h-10zM50 50h10v10h-10zM60 50h10v10h-10zM70 50h10v10h-10zM80 50h10v10h-10zM90 50h10v10h-10zM20 60h10v10h-10zM40 60h10v10h-10zM70 60h10v10h-10zM90 60h10v10h-10zM20 70h10v10h-10zM40 70h10v10h-10zM70 70h10v10h-10zM90 70h10v10h-10z"/><g class="claw"><path fill="#D97757" shape-rendering="crispEdges" d="M-10 40h10v10h-10zM-20 50h10v10h-10zM-30 56h10v10h-10z"/></g><g class="look"><path fill="#1A1A1A" shape-rendering="crispEdges" d="M30 20h10v10h-10zM80 20h10v10h-10zM30 30h10v10h-10zM80 30h10v10h-10z"/></g></g>
+    <rect x="900" y="238" width="36" height="32" fill="#60A5FA"/><rect x="900" y="238" width="36" height="6" fill="#D97757"/><rect x="936" y="246" width="8" height="16" fill="#60A5FA"/><rect class="steam p0" x="906" y="224" width="6" height="6" fill="#64748B"/><rect class="steam p1" x="916" y="224" width="6" height="6" fill="#64748B"/><rect class="steam p2" x="926" y="224" width="6" height="6" fill="#64748B"/>
+    <rect x="1000" y="244" width="48" height="26" fill="#C2410C"/><rect x="996" y="240" width="56" height="8" fill="#EA580C"/><rect x="1020" y="200" width="8" height="40" fill="#16A34A"/><rect x="1004" y="212" width="16" height="8" fill="#22C55E"/><rect x="1028" y="204" width="16" height="8" fill="#22C55E"/><rect x="1008" y="224" width="12" height="8" fill="#16A34A"/><rect x="1028" y="222" width="14" height="8" fill="#16A34A"/>
+    <rect x="100" y="270" width="1000" height="14" fill="#C8A27A"/><rect x="100" y="284" width="1000" height="6" fill="#B08860"/><rect x="130" y="290" width="16" height="50" fill="#B08860"/><rect x="1054" y="290" width="16" height="50" fill="#B08860"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="20" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>
